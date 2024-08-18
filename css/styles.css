@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.1rem;
+    text-align: center;
+}
+
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   grid-gap: 20px;
+}
