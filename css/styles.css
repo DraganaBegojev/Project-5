@@ -24,3 +24,7 @@ input#imageSearch {
     border: solid 2px #c5c5c5;
     border-radius: 5px;
 }
+
+.hidden {
+    display: none;
+}
